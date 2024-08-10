@@ -1,0 +1,18 @@
+Test Accuracy: 1.0
+
+Classification Report:
+              precision    recall  f1-score   support
+
+       hello       1.00      1.00      1.00         2
+      thanks       1.00      1.00      1.00         1
+    iloveyou       1.00      1.00      1.00         2
+
+    accuracy                           1.00         5
+   macro avg       1.00      1.00      1.00         5
+weighted avg       1.00      1.00      1.00         5
+
+
+Confusion Matrix:
+[[2 0 0]
+ [0 1 0]
+ [0 0 2]]

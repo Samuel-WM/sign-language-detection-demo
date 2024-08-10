@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Language Detection</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Sign Language Detection</h1>
+        <p>Real-time detection using a live camera feed.</p>
+        <p>Can currently detect 'I Love You', 'Hello', and 'Thanks'.</p>
+
+    </header>
+    <main>
+        <div class="video-container">
+            <img src="{{ url_for('video_feed') }}" alt="Video Feed">
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Sam's Sign Language Detection Demo. All rights reserved.</p>
+    </footer>
+</body>
+</html>
